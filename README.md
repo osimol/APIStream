@@ -30,3 +30,5 @@ Sirve para consumir objetos. Uno de los ejemplos más claros es imprimir.
 ```
 
 Adicionalmente, tiene el método andThen, que permite componer consumidores, para encadenar una secuencia de operaciones.
+
+## 3. Consumer<T>
