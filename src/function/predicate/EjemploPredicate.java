@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 
 
 /**
- * @author Openwebinars
+ * @author 
  *
  */
 public class EjemploPredicate {

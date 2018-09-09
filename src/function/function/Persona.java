@@ -1,14 +1,12 @@
 /**
  * EJEMPLO DE UNA CLASE DE TIPO MODELO
  */
-package function.predicate;
+package function.function;
 
 import java.time.LocalDate;
-import java.time.Period;
-import java.time.temporal.ChronoUnit;
 
 /**
- * @author 
+ * @author Openwebinars
  *
  */
 public class Persona {
@@ -17,8 +15,9 @@ public class Persona {
 	private String nombre;
 	private String apellidos;
 	private LocalDate fechaNacimiento;
-	
-	public Persona() { }
+
+	public Persona() {
+	}
 
 	public Persona(String dni, String nombre, String apellidos, LocalDate fechaNacimiento) {
 		super();
@@ -58,10 +57,6 @@ public class Persona {
 
 	public void setFechaNacimiento(LocalDate fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
-	}
-	
-	public long getEdad() {
-		return Period.between(fechaNacimiento, LocalDate.now()).get(ChronoUnit.YEARS);
 	}
 
 	@Override
@@ -113,9 +108,4 @@ public class Persona {
 				+ fechaNacimiento + "]";
 	}
 
-	
-	
-	
-	
-	
 }
